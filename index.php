@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo getenv("HOSTNAME") ;?>
+    <?php echo (getenv("aaaa") == "")?"empty -":getenv("HOSTNAME") ;?>
 </body>
 </html>
